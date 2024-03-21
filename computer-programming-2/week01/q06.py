@@ -1,0 +1,1 @@
+"""8.satırda iki sayının arasındaki fark 0.1'den düşük olduğu durum ele alındığı için 8. satırdaki print içindeki ifade "İki sayı birbirine eşittir." olarak değiştirilmesi gerekmektedir."""
