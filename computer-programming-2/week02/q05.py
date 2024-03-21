@@ -19,22 +19,19 @@ for i in range(len(formul)):
                 while formul[temp_i + 1].isdigit():
                     temp_number += formul[temp_i + 1]
                     temp_i += 1
-                number = 1 if len(temp_number) == 0 else int(temp_number)
             case 'C':
                 while formul[temp_i + 1].isdigit():
                     temp_number += formul[temp_i + 1]
                     temp_i += 1
-                number = 1 if len(temp_number) == 0 else int(temp_number)
             case 'O':
                 while formul[temp_i + 1].isdigit():
                     temp_number += formul[temp_i + 1]
                     temp_i += 1
-                number = 1 if len(temp_number) == 0 else int(temp_number)
             case 'N':
                 while formul[temp_i + 1].isdigit():
                     temp_number += formul[temp_i + 1]
                     temp_i += 1
-                number = 1 if len(temp_number) == 0 else int(temp_number)
+        number = 1 if len(temp_number) == 0 else int(temp_number)
         molar_kutle += number * element_agirliklari[formul[i]]
     else:
         i += 1
