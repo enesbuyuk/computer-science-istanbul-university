@@ -6,13 +6,12 @@ element_agirliklari = {
 }
 formul = input("Molar kütlesi hesaplanacak kimyasal formulü giriniz: ")
 molar_kutle= 0
-formul = formul+'X'
+formul = formul.upper()+'X'
 for i in range(len(formul)):
     if formul[i].isalpha():
         if formul[i] == 'X':
             break
         temp_number = ''
-        number = 1
         temp_i=i
         match formul[i]:
             case 'H':
