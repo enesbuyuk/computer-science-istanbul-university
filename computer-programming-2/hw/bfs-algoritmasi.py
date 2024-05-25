@@ -51,13 +51,14 @@ if yol:
     print("En kısa yol bulundu:", yol)
 else:
     print("Yol bulunamadı")
-
-# Örnek girdi:
-# Matrix'in satır sayısını girin: 5
-# Matrix'in sütun sayısını girin: 5
-# Lütfen 5 satır ve 5 sütunlu matrisi girin:
-# 1 0 0 0 0
-# 1 1 0 1 1
-# 0 1 0 0 0
-# 1 1 1 1 1
-# 0 0 0 0 1
+"""
+Örnek girdi:
+Matrix'in satır sayısını girin: 5
+Matrix'in sütun sayısını girin: 5
+Lütfen 5 satır ve 5 sütunlu matrisi girin:
+0 0 1 0 0
+1 0 0 1 1
+0 0 1 0 0
+1 0 1 1 1
+0 0 0 0 0
+"""
